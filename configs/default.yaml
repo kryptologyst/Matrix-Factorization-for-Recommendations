@@ -1,0 +1,49 @@
+# Default configuration for matrix factorization recommendations
+
+# Data configuration
+data:
+  test_size: 0.2
+  val_size: 0.1
+  split_method: "random"  # Options: "random", "temporal", "user_based"
+  min_interactions: 5  # Minimum interactions per user for user_based split
+
+# Model configuration
+models:
+  # Baselines
+  popularity: true
+  user_knn: true
+  user_knn_k: 50
+  item_knn: true
+  item_knn_k: 50
+  
+  # Matrix Factorization
+  svd: true
+  svd_factors: 50
+  nmf: true
+  nmf_factors: 50
+  als: true
+  als_factors: 50
+  bpr: true
+  bpr_factors: 50
+
+# Evaluation configuration
+evaluation:
+  k_values: [5, 10, 20]
+  metrics:
+    - "Precision@K"
+    - "Recall@K"
+    - "HitRate@K"
+    - "NDCG@K"
+    - "MAP@K"
+    - "Coverage"
+
+# Training configuration
+training:
+  random_state: 42
+  verbose: true
+
+# Output configuration
+output:
+  save_models: true
+  save_predictions: true
+  create_plots: true

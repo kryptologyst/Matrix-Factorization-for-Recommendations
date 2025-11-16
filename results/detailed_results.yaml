@@ -1,0 +1,368 @@
+- config: {}
+  metrics:
+    Coverage: 0.07191780821917808
+    HitRate@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - &id001 !!python/object/apply:numpy.dtype
+      args:
+      - f8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 0
+    - !!binary |
+      nOyQNTcIdT8=
+    HitRate@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      nOyQNTcIhT8=
+    HitRate@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      nOyQNTcIVT8=
+    MAE: 1.1412580183666574
+    MAP@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      NKGaViN3Oj8=
+    MAP@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      RsACW6MKQz8=
+    MAP@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      F4oNXl/TID8=
+    NDCG@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      oIZRTYlAUj8=
+    NDCG@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      gbg5IeUrXz8=
+    NDCG@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      6UBzm370Mz8=
+    Precision@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      F4oNXl/TQD8=
+    Precision@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      F4oNXl/TQD8=
+    Precision@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      F4oNXl/TMD8=
+    RMSE: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      pd+JpQmS9j8=
+    Recall@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      MApDHD6pZz8=
+    Recall@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      /qoHeubIdj8=
+    Recall@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      nOyQNTcIRT8=
+    evaluation_time: 0.04351687431335449
+    training_time: 0.004873991012573242
+  model: Popularity
+- config: {}
+  metrics:
+    Coverage: 0.8253424657534246
+    HitRate@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      MApDHD6phz8=
+    HitRate@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      MApDHD6plz8=
+    HitRate@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      62JZ0FKMfz8=
+    MAE: 1.2417828549436676
+    MAP@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      NV0Ay6iOaD8=
+    MAP@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      jQZG3ge6az8=
+    MAP@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      3sCKuFYzZj8=
+    NDCG@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      OkJDgbntcT8=
+    NDCG@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      OElSA/EOeT8=
+    NDCG@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      uI1he2UxbT8=
+    Precision@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      WjvPScvtUj8=
+    Precision@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      WjvPScvtUj8=
+    Precision@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      I08UDQ89WT8=
+    RMSE: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      LKlSGfb++D8=
+    Recall@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XNcS1HC6ej8=
+    Recall@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      xfAqeNcxiT8=
+    Recall@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      12+jrNiGcT8=
+    evaluation_time: 2.4845428466796875
+    training_time: 0.04229402542114258
+  model: UserKNN(k=50)
+- config: {}
+  metrics:
+    Coverage: 1.4349315068493151
+    HitRate@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      vMxTo42TrT8=
+    HitRate@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      fsZsPx1Vtz8=
+    HitRate@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      nOyQNTcIpT8=
+    MAE: 1.356719286300881
+    MAP@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      s2wA4Uhnhj8=
+    MAP@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      4v2wEQxXij8=
+    MAP@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      koRZwqUKgj8=
+    NDCG@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      6eQ0M/uEkz8=
+    NDCG@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      rH/MQ9Jxmj8=
+    NDCG@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      EIrWhE6/jD8=
+    Precision@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      p7GX5OZxfT8=
+    Precision@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      gHYzF9kveD8=
+    Precision@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Cc/eTjBngj8=
+    RMSE: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      /2St8k2a+z8=
+    Recall@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      5Ll/MtN4oT8=
+    Recall@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      pQHRDCuXrD8=
+    Recall@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      59+E44PMlT8=
+    evaluation_time: 2.059391975402832
+    training_time: 0.04105401039123535
+  model: ItemKNN(k=50)
+- config: {}
+  metrics:
+    Coverage: 1.1815068493150684
+    HitRate@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      P8CF26wWoT8=
+    HitRate@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      blaLCHIPsz8=
+    HitRate@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      P8CF26wWkT8=
+    MAE: 3.566353570870908
+    MAP@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      IoT5TuwidT8=
+    MAP@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      QTlGfb+Iej8=
+    MAP@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      1pLbQ4yXcD8=
+    NDCG@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      O0zHIx1fgz8=
+    NDCG@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      HJYE3KT+jz8=
+    NDCG@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      N/4W+FKDeT8=
+    Precision@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      B9m27rBkbD8=
+    Precision@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      xh0dY8RMcD8=
+    Precision@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ZwDW+HpXaz8=
+    RMSE: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ItokywlMDkA=
+    Recall@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      phBoCoGmkD8=
+    Recall@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      6sEp9uzAoj8=
+    Recall@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      cuj28pbegD8=
+    evaluation_time: 0.1052088737487793
+    training_time: 0.051102399826049805
+  model: SVD(n_factors=50)
+- config: {}
+  metrics:
+    Coverage: 1.2568493150684932
+    HitRate@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Cc/eTjBnoj8=
+    HitRate@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      P8CF26wWsT8=
+    HitRate@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      xCf1AkVKij8=
+    MAE: 3.5712599940937313
+    MAP@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Cmdktih9dD8=
+    MAP@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      X/g2QVGleT8=
+    MAP@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      /a/zyabHaz8=
+    NDCG@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      oIGkIJefgz8=
+    NDCG@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      E67IDbo5jj8=
+    NDCG@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      l0YbOgvkdD8=
+    Precision@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      62JZ0FKMbz8=
+    Precision@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Sop42hx/bj8=
+    Precision@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      nOyQNTcIZT8=
+    RMSE: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Z1/K90RWDkA=
+    Recall@10: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      P8CF26wWkT8=
+    Recall@20: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      TApiYacIoT8=
+    Recall@5: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ksi5YO1peT8=
+    evaluation_time: 0.10328817367553711
+    training_time: 0.12816810607910156
+  model: NMF(n_factors=50)
